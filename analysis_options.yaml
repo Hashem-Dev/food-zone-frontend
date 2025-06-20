@@ -1,0 +1,31 @@
+# This file configures the analyzer, which statically analyzes Dart code to
+# check for errors, warnings, and lints.
+#
+# The issues identified by the analyzer are surfaced in the UI of Dart-enabled
+# IDEs (https://dart.dev/tools#ides-and-editors). The analyzer can also be
+# invoked from the command line by running `flutter analyze`.
+
+# The following line activates a set of recommended lints for Flutter apps,
+# packages, and plugins designed to encourage good coding practices.
+analyzer:
+  errors:
+    constant_identifier_names: ignore
+    depend_on_referenced_packages: ignore
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - avoid_unused_constructor_parameters
+    - prefer_final_fields
+    - directives_ordering
+    - non_constant_identifier_names
+    - camel_case_types
+    - camel_case_extensions
+    - comment_references
+    - slash_for_doc_comments
+    - curly_braces_in_flow_control_structures
+    - unnecessary_getters_setters
+    - avoid_relative_lib_imports
+    # https://dart.dev/guides/language/analysis-options

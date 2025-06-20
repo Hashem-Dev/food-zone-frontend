@@ -1,0 +1,20 @@
+{
+  "buildFiles": [
+    "C:\\Development\\Flutter\\flutter\\packages\\flutter_tools\\gradle\\src\\main\\groovy\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Development\\Flutter\\android-sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\Development\\Flutter\\projects\\food_zone\\android\\app\\.cxx\\RelWithDebInfo\\6l194a2j\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Development\\Flutter\\android-sdk\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\Development\\Flutter\\projects\\food_zone\\android\\app\\.cxx\\RelWithDebInfo\\6l194a2j\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {}
+}

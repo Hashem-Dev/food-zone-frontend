@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "adb-reverse",
+      "type": "shell",
+      "command": "adb reverse tcp:5000 tcp:5000",
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "type": "flutter",
+      "command": "adb reverse tcp:5000 tcp:5000",
+      "args": ["install"],
+      "problemMatcher": [],
+      "label": "flutter: flutter install",
+      "detail": ""
+    }
+  ]
+}
